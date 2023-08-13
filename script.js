@@ -24,6 +24,7 @@ function stop(){
     clearInterval(interval)
     sec=0
     min=0
+    window.alert("You've stopped at: "+document.getElementById('watch').innerText)
     document.getElementById('watch').innerText='00:00:00'
 }
 
